@@ -1,0 +1,51 @@
+/* *{
+    font-family: 'Courier New', Courier, monospace;
+    margin:0px
+}
+
+h1{
+    color: rgb(255,100,0);
+    background-color: pink;
+}
+
+p{
+    font-size: 12px;
+   
+}
+
+span{
+    background-color: red;
+}
+
+
+.paraOne{
+    background-color: royalblue;
+}
+
+
+#spanOne{
+    background-color: pink;
+}
+
+li>span>a{
+    background-color: red;
+}
+
+p>b{
+    color: pink;
+}
+
+p>a{background-color: saddlebrown;} */
+
+p a{
+    background-color: red;
+}
+
+h1+p{
+    background-color: pink;
+}
+
+h1~p{
+    background-color: pink;
+}
+

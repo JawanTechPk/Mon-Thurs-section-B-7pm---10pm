@@ -1,0 +1,33 @@
+/* #mainDiv{
+    background-color: red;
+min-width: 300px;
+max-width: 700px;
+height: 40px;
+overflow: hidden;
+}
+
+ */
+
+
+ .mainDiv{
+     width: 100%;
+     background-color: red;
+     height: 300px;
+     display: flex;
+ }
+
+ .leftDiv{
+     width: 47%;
+     margin-left: 1.5%;
+     margin-right: 1.5%;
+     height: 300px;
+     background-color: orange;
+ }
+
+ .rightDiv{
+    background-color: yellow;
+    width: 47%;
+    height: 300px;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+}

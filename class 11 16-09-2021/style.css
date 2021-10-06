@@ -1,0 +1,15 @@
+/* ol{
+    list-style-type: none;
+}
+
+ul{
+    list-style-type: square;
+    list-style-image: url("./images/black-circle.png");
+list-style-position: inside;
+
+list-style: inside square;
+} */
+
+table{
+    border-collapse: collapse;
+}

@@ -1,0 +1,20 @@
+body{
+    height: 3000px;
+}
+#mainDIv{
+    border: 2px solid orange;
+    height: 200px;
+}
+
+.paraTwo{
+position: absolute;
+background-color:red ;
+z-index: 5;
+/* bottom: 30px; */
+/* left: 40px; */
+}
+
+.paraThree{
+    z-index: 10;
+    background-color:orange ;
+}

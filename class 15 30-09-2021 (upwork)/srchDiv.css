@@ -1,0 +1,70 @@
+#srchDiv{
+    /* height: 550px; */
+background-image: url('./images/srchDivImg/find-talent.bf9ad20.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+padding-bottom: 20px;
+margin-bottom: 20px;
+}
+
+#srchDiv h3{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    color:white;
+    font-weight: 100;
+}
+#srchDiv h1{
+
+font-size: 5.5vw;
+margin-top: 100px;
+}
+.comStl{
+   margin-left: 20px;
+    color:white;
+width: 30%;
+}
+
+#srchDiv p{
+    margin-top: 20px;
+ }
+
+#offersDiv{
+    display: flex;
+}
+ .offers{
+     width: 30%;
+     height: 130px;
+    margin-left: 2.5%;
+    margin-top: 50px;
+background-color: #14a800;
+align-items: space-between;
+border-radius: 10px;
+ }
+ .offers:hover { 
+background-color: white;
+
+ }
+ .offers:hover h2{ 
+   color: #14a800;
+     }
+     .offers:hover p{ 
+        color: #14a800;
+          }
+
+ .offers h2{
+     width: 70%;
+    color:white;
+    font-size: 2.8vw;
+    margin-left: 20px;
+ }
+
+ .offers p{
+    width: 70%;
+   color:white;
+   font-size: 1.5vw;
+   margin-left: 20px;
+}
+
+    

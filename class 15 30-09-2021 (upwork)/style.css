@@ -1,0 +1,109 @@
+*{
+    margin:0px;
+    padding:0px
+}
+
+
+#headMainDiv{
+    position: fixed;
+    top:0px;
+    width: 90%;
+    background-color: white;
+}
+
+#mainDiv{
+    width: 90%;
+    margin: 0px auto;
+   
+}
+
+
+#headerDiv{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+
+#headFrDiv{
+    width: 50%;
+}
+
+#headFrDiv ul{
+    display: flex;
+    list-style-type: none;
+
+}
+#headFrDiv ul li{
+   margin-right: 20px;
+   color:gray;
+   font-size: 1.5vw;
+}
+#headFrDiv ul li:hover{
+    color:#14a800;
+    }
+
+#headScDiv{
+    width: 50%;
+}
+
+#headScDiv ul{
+    display: flex;
+    list-style-type: none;
+
+}
+#headScDiv ul li{
+   margin-right: 20px;
+   color:gray;
+  
+}
+#seBar{
+    padding:5px ;
+    border-radius: 15px;
+    border:0.2px solid gray
+}
+
+
+#signUpBtn{
+    height: 30px;
+    width: 80px;
+    background-color: #14a800;
+    border:0px solid transparent;
+    color:white;
+    border-radius: 15px;
+}
+
+.colorPri{
+    color: #14a800 !important;
+    font-size: 2vw;
+
+}
+
+.hr{
+    margin-top: 2px;
+}
+
+#cate{
+    margin-top: 5px;
+}
+
+#cate ul{
+    list-style-type: none;
+    display: flex;
+} 
+#cate ul li{
+color: gray;
+margin-right: 20px;
+font-size: 1.2vw;
+/* font-weight: bold; */
+} 
+
+#cate ul li:hover{
+color:#14a800;
+}
+
+#lgBtn{
+    margin-top: 5px;
+}
+
+

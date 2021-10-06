@@ -1,0 +1,37 @@
+
+
+ /* @media only screen and (max-width: 550px){
+   img{
+       width: 300px;
+   }
+}
+
+@media only screen and (max-width: 400px){
+    img{
+        width: 200px;
+    }
+ } */
+
+
+ .main{
+     display: flex;
+     /* flex-direction: flex-end; */
+     /* justify-content: space-around; */
+     /* align-items: flex-end; */
+     /* flex-wrap: wrap-reverse; */
+     flex-flow: column wrap-reverse;
+ }
+
+ .main > div{
+     border: 2px solid red;
+     width: 200px;
+ }
+ /* .one{
+     flex: 1
+ }
+ .two{
+     flex: 3;
+ }
+ .three{
+     flex: 1;
+ } */

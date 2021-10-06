@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "Roboto" ;
+    src: url(./fonts/RobotoCondensed-Italic.ttf);
+}
+
+
+#p1{
+    font-style: oblique;
+    text-decoration: blink;
+}
+#p2{
+    font-family:Roboto ;
+    text-transform:capitalize;
+    /* line-height: 50px; */
+    /* word-spacing: 10px; */
+    /* text-align: center; */
+    /* text-indent: 100px;
+    text-shadow: -5px -5px 2px red; */
+}
+#p2:first-line{
+    font-size: 50px;
+}
+a:link{
+    color: orange
+}
+a:visited{
+    color: aqua
+}
+#div1{
+    background-color: red;
+    width: 400px;
+    height: 400px;
+
+}
+#div1:hover{
+    background-color: yellow;
+    width: 300px;
+    height: 300px;
+}
+#btn{
+    background-color: red;
+}
+#btn:active{
+    background-color: purple;
+}
+#inp{
+    background-color: sandybrown;
+
+}
+#inp:focus{
+    background-color: seagreen;
+}

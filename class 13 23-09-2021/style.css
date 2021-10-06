@@ -1,0 +1,35 @@
+div{
+    height: 100vh;
+background-color: purple;
+}
+
+
+.mainDiv{
+
+    background-image: url('./images/download.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color:red ;
+    background-position: center center;
+}
+
+
+/* .mainDiv{
+    background-color: blue;
+    position: absolute;
+}
+
+.paraOne{
+    background-color: red;
+}
+
+.paraTwo{
+    background-color: brown;
+    position: sticky;
+    top:0px;
+
+}
+
+.paraThree{
+    background-color: purple;
+} */
