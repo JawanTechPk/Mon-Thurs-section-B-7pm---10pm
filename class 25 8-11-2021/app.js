@@ -42,17 +42,17 @@
 // console.log(hour + " : " + min + " : " + sec)
 
 
-// var today = new Date();
-// var futureDay = new Date("january 25, 2045");
+var today = new Date();
+var futureDay = new Date("january 25, 2045");
 
 
-// var msToday = today.getTime()
-// var msFutureDay = futureDay.getTime()
+var msToday = today.getTime()
+var msFutureDay = futureDay.getTime()
 
-// var remainingTime = msFutureDay - msToday;
+var remainingTime = msFutureDay - msToday;
 
-// var remainingTime = Math.round(remainingTime / (1000 *60*60*24))
-// console.log(remainingTime)
+var remainingTime = Math.round(remainingTime / (1000 *60*60*24))
+console.log(remainingTime)
 
 // var today = new Date();
 
